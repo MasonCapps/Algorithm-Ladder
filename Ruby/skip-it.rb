@@ -1,13 +1,9 @@
 def skip_array(array)
   result = []
-  checker = 0
   index = 0
   while index < array.length
-    if index == checker
-      result << array[index]
-      checker += array[index]
-    end
-    index += 1
+    result << array[index]
+    index += array[index]
   end
   return result
 end
