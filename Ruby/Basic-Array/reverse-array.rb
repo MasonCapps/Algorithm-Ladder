@@ -3,7 +3,7 @@ def reverse_array(array)
   while array.length > 0
     reversed_array << array.pop()
   end
-  reversed_array
+  return reversed_array
 end
 
 p reverse_array([1, 2, 3, 4, 5])

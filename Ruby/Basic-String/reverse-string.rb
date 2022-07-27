@@ -5,7 +5,7 @@ def string_reverser(string)
     string[index], string[length - index] = string[length - index], string[index]
     index += 1
   end
-  string
+  return string
 end
 
 p string_reverser("abcde")
