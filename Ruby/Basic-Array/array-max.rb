@@ -5,7 +5,7 @@ def array_max(array)
       highest_number = x
     end
   end
-  highest_number
+  return highest_number
 end
 
 p array_max([5, 17, -4, 20, 12])
